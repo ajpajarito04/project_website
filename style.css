@@ -266,6 +266,10 @@ footer{
     
 }
 
+.section2 h1{
+    margin-bottom: 1%;
+}
+
 /* flex boxes */
 
 .flexbox-container{
@@ -315,8 +319,6 @@ footer{
 }
 
 .flexbox-container p {
-
-    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     margin-right:6%;
