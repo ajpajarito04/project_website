@@ -303,14 +303,20 @@ footer{
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
-.section2 img{
+.flexbox-item img{
     margin-top:5%;
     margin-bottom:3%;
     border-radius: 10px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
+.flexbox-item:hover{
+    transform:scale(1.1);
+}
+
 .flexbox-container p {
+
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     margin-right:6%;
