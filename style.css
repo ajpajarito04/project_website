@@ -125,7 +125,7 @@ footer{
     left: 0;
     right: 0;
     background: #102c57;
-    padding: 0rem 6%;
+    padding: 2rem 6%;
     width: 120%;
 }
 
@@ -147,15 +147,20 @@ footer{
     font-size: larger;
 }
 
+.footer-content i {
+    margin-right: 10px; 
+    font-size: 25px;
+}
+
 .footer-content p {
     margin-bottom: 20px;
     margin-left: 50px;
+    margin-top: 15px;
     flex-direction: column;
-    font-size: 2rem;
+    font-size: 1;
     font-family: sans-serif;
     color: #fff;
 }
-
 
 
 /* SLIDER CSS  */
@@ -228,10 +233,10 @@ footer{
 
 .section2{
     position: relative;
-    color: black;
+    color: #102c57;
     background-size: cover;
     text-align: center;
-    font-style: sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-size: 35px;
     
 }
