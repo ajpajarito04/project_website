@@ -207,6 +207,31 @@ footer{
     }
 }
 
+.text-overlay {
+    position: absolute;
+    top: 80%; /* Adjust as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2; /* Ensure it's above the images */
+}
+
+.text-overlay h {
+    color: #eadbc8;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.text-overlay p {
+    color: #eadbc8;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
 /* button  */
 
 .btn {
@@ -225,7 +250,7 @@ footer{
 }
 
 .btn:hover {
-    background-color: rgb(192, 163, 0);
+    background-color: #eadbc8;
 }
 
 
