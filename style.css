@@ -26,7 +26,7 @@ header {
     left: 0;
     right: 0;
     background: white;
-    padding: 1rem 6%;
+    padding: 1rem 30%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,7 +40,8 @@ header a img {
 }
 
 header .navbar {
-    margin-left: 55rem;
+    margin-left: 5rem;
+    margin-right: auto;
 }
 header .navbar a {
     font-size: 2rem;
@@ -52,6 +53,20 @@ header .icons a {
     font-size: 2.5rem;
     color: #102c57;
     margin-left: 1.5rem;
+}
+
+header button {
+    position: relative;
+    background-color: #102c57;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 70px;
+    border-radius:5px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    
+    
 }
 
 body {
@@ -172,7 +187,9 @@ footer{
     margin: auto;
     position: relative;
     overflow: hidden;
+    
 }
+
 .slider .list{
     position: absolute;
     width: max-content;
@@ -209,28 +226,13 @@ footer{
 
 .text-overlay {
     position: absolute;
-    top: 80%; /* Adjust as needed */
+    top: 75%; /* Adjust as needed */
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     z-index: 2; /* Ensure it's above the images */
 }
 
-.text-overlay h {
-    color: #eadbc8;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 50px; /* Adjust as needed */
-    margin-bottom: 20px; /* Adjust as needed */
-}
-
-.text-overlay p {
-    color: #eadbc8;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 20px; /* Adjust as needed */
-    margin-bottom: 20px; /* Adjust as needed */
-}
 
 /* button  */
 
@@ -247,6 +249,11 @@ footer{
     padding: 10px 70px;
     border-radius:5px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.text-overlay img{
+    height: 147px;
+    width:500px;
 }
 
 .btn:hover {
@@ -292,40 +299,28 @@ footer{
     margin: 10px;
     background-color: #eadbc8;
     border-radius:10px;
-    text-align:left;
+    text-align:justify;
     font-size: 12px;
     color: black;
 }
 
 .flexbox-item-1 {
     width: 400px;
-    height: 700px;
+    height: 750px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     
 }
 
-.flexbox-item-1:hover{
-    transform:scale(1.1);
-}
-
 .flexbox-item-2 {
     width: 400px;
-    height: 700px;
+    height: 750px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-}
-
-.flexbox-item-2:hover{
-    transform:scale(1.1);
 }
 
 .flexbox-item-3 {
     width: 400px;
-    height: 700px;
+    height: 750px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-}
-
-.flexbox-item-3:hover{
-    transform:scale(1.1);
 }
 
 .flexbox-container img{
@@ -347,8 +342,7 @@ footer{
     margin-right:6%;
     margin-left:6%;
     font-family: sans-serif;
-    font-size: 20px;
-    text-decoration: underline;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -363,28 +357,72 @@ footer{
     font-size: 30px;
 }
 
-.section3.btn {
-    position: absolute;
-    top: 65rem;
+
+.flexbox-item1-1 button {
+    position: relative;
+    top: 85%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-color: #102c57;
     color: white;
     font-family: sans-serif;
     font-weight: bold;
     font-size: 20px;
-    padding: 10px 70px;
+    padding: 20px 70px;
+    border-radius:5px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    
+    
+}
+
+
+.flexbox-item1-2 button {
+    position: relative;
+    top: 85%;
+    left: 50%;
+    background-color: #102c57;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 70px;
     border-radius:5px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
+.flexbox-item1-3 button {
+    position: relative;
+    top: 85%;
+    left: 50%;
+    background-color: #102c57;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 70px;
+    border-radius:5px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
 /*flex box 2*/ 
+
+.section3 h1{
+    background-color: white;
+    border-radius:20px;
+    width: 550px;
+    position: relative;
+    margin-top: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    
+}
 
 .flexbox-container1{
     display: flex;
     justify-content: space-around;
     font-family: 'Roboto', sans-serif;
 }
+
+
 
 .flexbox-item1 {
     width: 200px;
@@ -400,18 +438,48 @@ footer{
     width: 400px;
     height: 500px;
     background-image: url('pastry part.png');
-
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-    
+   
 }
+
+.flexbox-item1-1:before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0%;
+    width: 400px;
+    bottom: 30px;
+    transition: height 0.5s ease-out;
+    background: linear-gradient(to bottom, transparent 0%, black 100%);
+    border-radius:10px;
+  }
+  
+  .flexbox-item1-1:hover:before {
+    height: 500px;
+  }
 
 .flexbox-item1-2 {
     width: 400px;
     height:  500px;
-    background-image: url('cake part.png');
-
+    background-image: url('cakes part.png');
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
+
+.flexbox-item1-2:before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0%;
+    width: 400px;
+    bottom: 30px;
+    transition: height 0.5s ease-out;
+    background: linear-gradient(to bottom, transparent 0%, black 100%);
+    border-radius:10px;
+  }
+  
+  .flexbox-item1-2:hover:before {
+    height: 500px;
+  }
 
 .flexbox-item1-3 {
     width: 400px;
@@ -419,3 +487,28 @@ footer{
     background-image: url('food trays part.png');
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
+
+.flexbox-item1-3:before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0%;
+    width: 400px;
+    bottom: 30px;
+    transition: height 0.5s ease-out;
+    background: linear-gradient(to bottom, transparent 0%, black 100%);
+    border-radius:10px;
+  }
+  
+  .flexbox-item1-3:hover:before {
+    height: 500px;
+  }
+
+
+
+
+
+
+
+
+
