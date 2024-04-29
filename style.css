@@ -262,20 +262,29 @@ footer{
     background-size: cover;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
-    font-size: 35px;
+    font-size: 30px;
     
 }
 
-.section2 h1{
-    margin-bottom: 1%;
+.header1{
+    background-color: white;
+    border-radius:20px;
+    width: 550px;
+    position: relative;
+    margin-top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    
 }
+
 
 /* flex boxes */
 
 .flexbox-container{
     display: flex;
     justify-content: space-around;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 .flexbox-item {
@@ -283,7 +292,7 @@ footer{
     margin: 10px;
     background-color: #eadbc8;
     border-radius:10px;
-    text-align:justify;
+    text-align:left;
     font-size: 12px;
     color: black;
 }
@@ -295,10 +304,18 @@ footer{
     
 }
 
+.flexbox-item-1:hover{
+    transform:scale(1.1);
+}
+
 .flexbox-item-2 {
     width: 400px;
     height: 700px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.flexbox-item-2:hover{
+    transform:scale(1.1);
 }
 
 .flexbox-item-3 {
@@ -307,16 +324,17 @@ footer{
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
-.flexbox-item img{
+.flexbox-item-3:hover{
+    transform:scale(1.1);
+}
+
+.flexbox-container img{
     margin-top:5%;
     margin-bottom:3%;
     border-radius: 10px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
-.flexbox-item:hover{
-    transform:scale(1.1);
-}
 
 .flexbox-container p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -332,4 +350,72 @@ footer{
     font-size: 20px;
     text-decoration: underline;
     text-align: center;
+}
+
+/* section 3 */
+
+.section3{
+    position: relative;
+    color: #102c57;
+    background-size: cover;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.section3.btn {
+    position: absolute;
+    top: 65rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #102c57;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 70px;
+    border-radius:5px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+/*flex box 2*/ 
+
+.flexbox-container1{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flexbox-item1 {
+    width: 200px;
+    margin: 10px;
+    background-color: #eadbc8;
+    border-radius:10px;
+    text-align:left;
+    font-size: 12px;
+    color: black;
+}
+
+.flexbox-item1-1 {
+    width: 400px;
+    height: 500px;
+    background-image: url('pastry part.png');
+
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    
+}
+
+.flexbox-item1-2 {
+    width: 400px;
+    height:  500px;
+    background-image: url('cake part.png');
+
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.flexbox-item1-3 {
+    width: 400px;
+    height: 500px;
+    background-image: url('food trays part.png');
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
