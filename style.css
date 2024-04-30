@@ -262,9 +262,9 @@ body {
     
 }
 
-.header1{
+.section2 .header1{
     background-color: white;
-    border-radius:20px;
+    border-radius:10px;
     width: 550px;
     position: relative;
     margin-top: 3%;
@@ -325,6 +325,7 @@ body {
     font-size: 20px;
     margin-right:6%;
     margin-left:6%;
+    line-height: 1.1;
     
 }
 
@@ -336,6 +337,7 @@ body {
     text-align: center;
     color: black;
     font-weight: 800;
+    line-height: 2;
 }
 
 .flexbox-container h1:hover {
@@ -400,9 +402,9 @@ body {
 }
 /*flex box 2*/ 
 
-.section3 h1{
+.section3 .header1{
     background-color: white;
-    border-radius:20px;
+    border-radius: 10px;
     width: 550px;
     position: relative;
     margin-top: 1%;
@@ -521,25 +523,62 @@ footer{
     flex: 5;
 }
 
-.footer-content img {
+.footer-content a img {
    width: 250px;
     height: auto;
 }
 
-.footer-content a {
+.footer-content .header1 h1 {
+    margin-bottom: 100px;
+    margin-left: 50px;
+    flex-direction: column;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #fff;
+    flex: 1;
+}
+
+.footer-content .paragraph1 a {
     color: white;
     font-size: larger;
 }
 
-.footer-content i {
-    margin-right: 10px; 
+.footer-content .paragraph1 i {
+    margin-right: 10px;
     font-size: 25px;
 }
 
-.footer-content p {
-    margin-bottom: 20px;
-    margin-left: 50px;
+.footer-content .paragraph1 p {
+    margin-bottom: 0px;
+    margin-left: -175px;
+    margin-right: 100px;
     margin-top: 15px;
+    flex-direction: column;
+    font-size: 1;
+    font-family: sans-serif;
+    color: #fff;
+    flex: 1;
+}
+
+.footer-content .paragraph1 p:hover {
+    color:#081b3c;
+}
+
+.footer-content .header2 h1 {
+    margin-bottom: 100px;
+    margin-left: 0px;
+    flex-direction: column;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #fff;
+    flex: 1;
+}
+
+.footer-content .paragraph2 p {
+    margin-bottom: 10px;
+    margin-left: -95px;
+    margin-right: 100px;
+    margin-top: 28px;
     flex-direction: column;
     font-size: 1;
     font-family: sans-serif;
