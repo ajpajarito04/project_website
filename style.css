@@ -38,23 +38,29 @@ header a img {
     height: auto;
 }
 
-header .navbar {
+.navbar {
     margin-left: 3rem;
     margin-right: auto;
     margin-top: -4px;
 }
-header .navbar a {
+.navbar a {
     font-size: 18px;
     font-weight: bold;
     padding: 1rem;
-    color: #102c57;
+    color: black;
     margin-left: 4rem;
+    transition: color 0.3s;
 }
 
-header .navbar i {
+.navbar a:hover, .navbar a:hover i {
+    color: #102c57; 
+}
+
+.navbar i {
     margin-left: 10px;
     font-size: 15px;
 }
+
 
 header dropdown_menu{
     display:block;
@@ -378,6 +384,10 @@ footer{
     text-align: center;
 }
 
+.flexbox-container h1:hover {
+    color:#102c57;
+}
+
 /* section 3 */
 
 .section3{
@@ -486,7 +496,7 @@ footer{
     border-radius:10px;
   }
   
-  .flexbox-item1-1:hover:before {
+.flexbox-item1-1:hover:before {
     height: 500px;
   }
 
