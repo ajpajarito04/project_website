@@ -20,6 +20,33 @@ section {
     padding: 2rem 9%;
 }
 
+/* Central button style */
+
+.btn {
+    position: absolute;
+    top: 64rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #102c57;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px 70px;
+    border-radius:5px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.btn i {
+    margin-left: 10px;
+}
+
+.btn:hover {
+    background-color:#081b3c;
+}
+
+/* Header Style */
+
 header {
     position: fixed;
     top: 0;
@@ -154,10 +181,12 @@ body {
     z-index: 2; /* Ensure it's above the images */
 }
 
+.text-overlay img{
+    height: 147px;
+    width:500px;
+}
 
-/* button  */
-
-.btn {
+.slider .btn {
     position: absolute;
     top: 64rem;
     left: 50%;
@@ -166,26 +195,11 @@ body {
     color: white;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 20px;
     padding: 10px 70px;
     border-radius:5px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
-
-.btn i {
-    margin-left: 10px;
-}
-
-  .text-overlay img{
-    height: 147px;
-    width:500px;
-}
-
-.btn:hover {
-    background-color:#081b3c;
-}
-
-
 /* section 2  */
 
 .section2{
@@ -235,20 +249,20 @@ body {
 
 .flexbox-item-1 {
     width: 400px;
-    height: 700px;
+    height: 690px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     
 }
 
 .flexbox-item-2 {
     width: 400px;
-    height: 700px;
+    height: 690px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
 .flexbox-item-3 {
     width: 400px;
-    height: 700px;
+    height: 690px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
@@ -263,11 +277,10 @@ body {
 .flexbox-container p {
     font-family: 'Inter', sans-serif;
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 18px;
+    text-align: center;
     margin-right:6%;
     margin-left:6%;
-    line-height: 1.1;
-    
 }
 
 .flexbox-container a h1{
@@ -342,7 +355,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 20px;
-    padding: 20px 70px;
+    padding: 20px 90px;
     border-radius:5px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
@@ -572,11 +585,7 @@ footer .btn {
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);   
 }
 
-footer .btn p {
-    font-weight: bold;
-    font-size: 17px;
-    font-family: 'Inter', sans-serif;
-}
+
 
 
 
