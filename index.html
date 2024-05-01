@@ -41,10 +41,17 @@
 
     menu.addEventListener('click', function() {
         if (!submenuVisible) {
+            submenu.style.opacity = '0'; 
             submenu.style.display = 'block';
+            setTimeout(() => {
+                submenu.style.opacity = '1'; 
+            }, 50); 
             submenuVisible = true;
         } else {
-            submenu.style.display = 'none';
+            submenu.style.opacity = '0'; 
+            setTimeout(() => {
+                submenu.style.display = 'none'; 
+            }, 300); 
             submenuVisible = false;
         }
     });
@@ -56,6 +63,7 @@
         });
     });
 </script>
+
 
 <div class="slider">    
     <div class="list">
