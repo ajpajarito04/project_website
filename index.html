@@ -18,15 +18,44 @@
       </a>
       
     <nav class="navbar">
-        <a href="menu.html">Menu<i class="fas fa-angle-down"></i></a>
+        <a href="#">Menu<i class="fas fa-angle-down"></i></a>
+        <div class="submenu">
+            <a href="pastries.html">Pastries</a>
+            <a href="cakes.html">Cakes</a>
+            <a href="food-trays.html">Food Trays</a>
+        </div>
         <a href="about.html">About</a>
         <a href="review.html">Reviews</a>
-        <a href="contact.html">Contact</a>
-         
+        <a href="contact.html">Contact</a> 
     </nav>
 
         <button class="btn">START ORDER</button>
 </header>
+
+<script type="text/javascript">
+    let menu = document.querySelector('.navbar a');
+    let submenu = document.querySelector('.submenu');
+    let submenuItems = document.querySelectorAll('.submenu a');
+
+    let submenuVisible = false;
+
+    menu.addEventListener('click', function() {
+        if (!submenuVisible) {
+            submenu.style.display = 'block';
+            submenuVisible = true;
+        } else {
+            submenu.style.display = 'none';
+            submenuVisible = false;
+        }
+    });
+
+    submenuItems.forEach(item => {
+        item.addEventListener('click', function() {
+            submenu.style.display = 'none';
+            submenuVisible = false;
+        });
+    });
+</script>
 
 <div class="slider">    
     <div class="list">
