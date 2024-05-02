@@ -40,6 +40,7 @@
     let submenuVisible = false;
 
     menu.addEventListener('click', function() {
+        event.preventDefault();
         if (!submenuVisible) {
             submenu.style.opacity = '0'; 
             submenu.style.display = 'block';
