@@ -430,7 +430,7 @@ body {
 .flexbox-item1-1 {
     width: 400px;
     height: 500px;
-    background-image: url('pastry part.png');
+    background-image: url('images/pastry-bottom.png');
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
    
 }
@@ -454,7 +454,7 @@ body {
 .flexbox-item1-2 {
     width: 400px;
     height:  500px;
-    background-image: url('cakes part.png');
+    background-image: url('images/cakes-bottom.png');
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
@@ -477,7 +477,7 @@ body {
 .flexbox-item1-3 {
     width: 400px;
     height: 500px;
-    background-image: url('food trays part.png');
+    background-image: url('images/foodtrays-bottom.png');
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
@@ -560,7 +560,7 @@ footer{
 }
 
 .footer-content .header2 h1 {
-    margin-bottom: 100px;
+    margin-bottom: 103px;
     margin-left: 0px;
     flex-direction: column;
     font-size: 17px;
@@ -617,6 +617,39 @@ footer .btn {
     border-radius:5px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);   
 }
+
+/*about*/
+.about {
+    margin-top: 120px; 
+    position: absolute;
+}
+
+.about-business {
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+.about-business h1 {
+    color: black;; 
+    font-size: 24px; 
+}
+
+.about-business p {
+    color: black; 
+    font-size: 16px; 
+    line-height: 1.5; 
+    margin-right: 700px;
+    text-align: justify;
+}
+
+.about-business img {
+    width: 500px; /* Set image width */
+    height: 500px;
+    margin-left: 900px;
+    margin-top: -400px;
+
+}
+
 
 
 
