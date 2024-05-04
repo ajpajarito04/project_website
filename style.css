@@ -90,26 +90,38 @@ header a img {
 }
 
 .submenu {
-    display: none;
+    display: flex;
+    justify-content: center;
     position: absolute;
     background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.10);
     z-index: 1;
     margin-top: 46px;
+    left: 0;
+    width: 100%;
+    text-align: center;
 }
 
 .submenu a {
-    display: block;
-    padding: 10px;
+    display: inline-block;
+    padding: 1px;
     color: black;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+.submenu img {
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
 }
 
 .submenu a:hover {
     background-color: #f1f1f1;
 }
+
 
 header .btn {
     position: absolute;
@@ -118,8 +130,7 @@ header .btn {
     background-color: #102c57;
     color: white;
     padding: 13px 35px;
-    border-radius:5px;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);   
+    border-radius:5px; 
 }
 
 header .btn:hover {
