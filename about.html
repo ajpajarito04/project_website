@@ -7,16 +7,14 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    
 </head>
 <body>
 <header>
     <a href="index.html">
         <img src="images/logo.png" alt="Logo">
-      </a>
-      
+    </a>
     <nav class="navbar">
         <a href="#">Menu<i class="fas fa-angle-down"></i></a>
         <div class="submenu">
@@ -28,53 +26,29 @@
         <a href="review.html">Reviews</a>
         <a href="contact.html">Contact</a> 
     </nav>
-
         <button class="btn">START ORDER</button>
 </header>
-
-<script type="text/javascript">
-    let menu = document.querySelector('.navbar a');
-    let submenu = document.querySelector('.submenu');
-    let submenuItems = document.querySelectorAll('.submenu a');
-
-    let submenuVisible = false;
-
-    menu.addEventListener('click', function() {
-        event.preventDefault();
-        if (!submenuVisible) {
-            submenu.style.opacity = '0'; 
-            submenu.style.display = 'block';
-            setTimeout(() => {
-                submenu.style.opacity = '1'; 
-            }, 50); 
-            submenuVisible = true;
-        } else {
-            submenu.style.opacity = '0'; 
-            setTimeout(() => {
-                submenu.style.display = 'none'; 
-            }, 300); 
-            submenuVisible = false;
-        }
-    });
-
-    submenuItems.forEach(item => {
-        item.addEventListener('click', function() {
-            submenu.style.display = 'none';
-            submenuVisible = false;
-        });
-    });
-</script>
-
 
 <div class="about">
     <div class="about-business">
         <h1>About the business</h1><br>
-        <p>Stove n’ Oven is owned and managed by Ms. Janelyn Dalupan.</p><br>
-        <h1>History of the Business</h1><br>
+        <h2>Owned and Managed by</h2> 
+        <h2>Ms. Janelyn Dalupan.</h2><br>
         <p>Stove n’ Oven - was established in 2020, during the pandemic, when almost all establishment and most companies were closed and only food and logistics businesses were left in operation since food is an essential need during that time and logistics/delivery services of essential goods because people were not allowed to go out and have limited activity during the pandemic. People were only allowed to go out to buy essential needs - food.</p><br>
-        <p>From there, Ms. Janelyn, loves to cook and really wanted to try baking, came up with an idea to cater food and baked goods, go online and deliver foods. Thus, she named it Stove n’ Oven, since she loves to cook and bake at the same time, obviously using the stove and the oven.</p><br>
+        <p>From there, Ms. Janelyn, loves to cook and really wanted to try baking, came up with an idea to cater food and baked goods, go online and deliver foods. Thus, she named it Stove n’ Oven, since she loves to cook and bake at the same time, obviously using the stove and the oven. She caters savory food and baked goods, customize cake and cupcakes. She caters savory food and baked goods, customize cake and cupcakes. </p><br>
         <p>Up until now, Stove n’ Oven is still in operation at the comfort of her home…</p><br>
-        <p>She caters savory food and baked goods, customize cake and cupcakes. </p>
         <img src="images/ceo-image.jpg">
     </div>
+
+<div class="mission">
+    <div class="mission-box">
+        <div class="mission-content">
+        <h1>Mission</h1>
+        <p>Our mission is to serve and deliver savory food and baked goods at the comfort of your home and be part of your celebrations and make it extra special.</p>
+        </div>
+    </div>
 </div>
+</div>
+
+</body>
+</html>

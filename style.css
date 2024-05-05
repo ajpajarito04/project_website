@@ -193,6 +193,7 @@ body {
 .slider .dots li.active{
     width: 30px;
 }
+
 @media screen and (max-width: 768px){
     .slider{
         height: 400px;
@@ -597,18 +598,27 @@ footer .btn {
 
 /*about*/
 .about {
-    margin-top: 120px; 
+    margin-top: 110px; 
     position: absolute;
 }
 
 .about-business {
-    padding: 20px; 
+    padding: 50px; 
     border-radius: 10px; 
 }
 
 .about-business h1 {
     color: black;; 
-    font-size: 24px; 
+    font-size: 34px; 
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.about-business h2 {
+    color: black;; 
+    font-size: 34px;
+    font-weight: normal;
+    line-height: 1.5; 
 }
 
 .about-business p {
@@ -620,12 +630,29 @@ footer .btn {
 }
 
 .about-business img {
-    width: 500px; /* Set image width */
-    height: 500px;
-    margin-left: 900px;
-    margin-top: -400px;
+    height: 510px;
+    width: 500px;
+    margin-left: 850px;
+    margin-top: -480px;
 
 }
+
+.mission {
+    background-color: #eadbc8;
+    padding: 230px
+
+}
+
+.mission-box {
+    padding: 20px;
+    width: 1000px;
+    height: 200px;
+    background-color: #dac0a3;
+    border-radius: 20px;
+}
+
+
+
 
 
 
