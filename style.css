@@ -5,12 +5,11 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: .2s linear;
  
 }
 html {
-    font-size: 62.5%;
+    font-size: 63.5%;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
     overflow-x: hidden;
@@ -29,7 +28,6 @@ section {
     transform: translate(-50%, -50%);
     background-color: #102c57;
     color: white;
-    font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 17px;
     padding: 10px 70px;
@@ -94,7 +92,7 @@ header a img {
     justify-content: center;
     position: absolute;
     background-color: #fff;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
     z-index: 1;
     margin-top: 46px;
     left: 0;
@@ -107,21 +105,18 @@ header a img {
     padding: 1px;
     color: black;
     text-decoration: none;
-    font-family: 'Inter', sans-serif;
     transition: background-color 0.3s;
     margin-bottom: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .submenu img {
     height: 100px;
     width: 100px;
     vertical-align: middle;
+    margin-right: 5px;
 }
-
-.submenu a:hover {
-    background-color: #f1f1f1;
-}
-
 
 header .btn {
     position: absolute;
@@ -138,7 +133,6 @@ header .btn:hover {
 }
 
 header .btn p {
-    font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 17px; 
 }
@@ -240,8 +234,6 @@ body {
     color: #102c57;
     background-size: cover;
     text-align: center;
-    font-family:'Inter', sans-serif;
-    font-weight: 900; 
 }
 
 .section2 .header1{
@@ -256,9 +248,8 @@ body {
 }
 
 .section2 .header1 h1 {
-    font-family:'Inter', sans-serif;
     font-size: 40px;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 
@@ -267,7 +258,6 @@ body {
 .flexbox-container{
     display: flex;
     justify-content: space-around;
-    font-family: 'Roboto', sans-serif;
 }
 
 .flexbox-item {
@@ -276,31 +266,28 @@ body {
     background-color: #eadbc8;
     border-radius:10px;
     text-align:justify;
-    font-size: 12px;
-    color: black;
 }
 
 .flexbox-item-1 {
     width: 400px;
-    height: 690px;
+    height: 570px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     
 }
 
 .flexbox-item-2 {
     width: 400px;
-    height: 690px;
+    height: 570px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
 .flexbox-item-3 {
     width: 400px;
-    height: 690px;
+    height: 570px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
 .flexbox-container img{
-    margin-top:5%;
     margin-bottom:3%;
     border-radius: 10px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
@@ -308,23 +295,23 @@ body {
 
 
 .flexbox-container p {
-    font-family: 'Inter', sans-serif;
-    font-weight: lighter;
     font-size: 18px;
-    text-align: center;
+    text-align: justify;
     margin-right:6%;
     margin-left:6%;
+    color: black;
+    font-weight: normal;
+    line-height: 1.5;
 }
 
 .flexbox-container a h1{
     margin-right:6%;
     margin-left:6%;
-    font-family: 'Inter', sans-serif;
     font-size: 30px;
     text-align: center;
     color: black;
-    font-weight: 800;
-    line-height: 2;
+    font-weight: bold;
+    line-height: 1.5;
 }
 
 .flexbox-container h1:hover {
@@ -338,9 +325,7 @@ body {
     color: #102c57;
     background-size: cover;
     text-align: center;
-    font-family:'Inter', sans-serif;
     font-size: 40px;
-    font-weight: bolder;
 }
 
 .section3 .header2{
@@ -358,7 +343,7 @@ body {
 .section3 .header2 h1{
     font-family:'Inter', sans-serif;
     font-size: 40px;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 
@@ -368,7 +353,6 @@ body {
     left: 50%;
     background-color: #102c57;
     color: white;
-    font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 20px;
     padding: 20px 70px;
@@ -385,7 +369,6 @@ body {
     left: 50%;
     background-color: #102c57;
     color: white;
-    font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 20px;
     padding: 20px 90px;
@@ -399,7 +382,6 @@ body {
     left: 50%;
     background-color: #102c57;
     color: white;
-    font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 20px;
     padding: 20px 70px;
@@ -544,7 +526,6 @@ footer{
 }
 
 .footer-content .paragraph1 p {
-    margin-bottom: 0px;
     margin-left: -175px;
     margin-right: 100px;
     margin-top: 15px;
@@ -564,19 +545,16 @@ footer{
     margin-left: 0px;
     flex-direction: column;
     font-size: 17px;
-    font-family: 'Inter', sans-serif;
     color: #fff;
     flex: 1;
 }
 
 .footer-content .paragraph2 p {
-    margin-bottom: 0px;
     margin-left: -95px;
     margin-right: 10px;
-    margin-top: 22px;
+    margin-top: 15px;
     flex-direction: column;
     font-size: 1;
-    font-family: 'Inter', sans-serif;
     color: #fff;
     flex: 1;
 }
@@ -586,13 +564,11 @@ footer{
     margin-left: 70px;
     flex-direction: column;
     font-size: 17px;
-    font-family: 'Inter', sans-serif;
     color: #fff;
     flex: 1;
 }
 
 .footer-content .footer-menu p {
-    margin-bottom: -4px;
     margin-left: -50px;
     margin-right: 10px;
     margin-top: 15px;
@@ -601,6 +577,7 @@ footer{
     font-family: 'Inter', sans-serif;
     color: #fff;
     flex: 1;
+    line-height: 1  ;
 }
 
 .footer-content .footer-menu p:hover {
