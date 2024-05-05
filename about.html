@@ -7,8 +7,6 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    
 </head>
 <body>
 <header>
@@ -29,6 +27,39 @@
         <button class="btn">START ORDER</button>
 </header>
 
+<script>
+    let menu = document.querySelector('.navbar a');
+let submenu = document.querySelector('.submenu');
+let submenuItems = document.querySelectorAll('.submenu a');
+
+let submenuVisible = false;
+
+menu.addEventListener('click', function(event) {
+    event.preventDefault();
+    if (!submenuVisible) {
+        submenu.style.opacity = '0'; 
+        submenu.style.display = 'block';
+        setTimeout(() => {
+            submenu.style.opacity = '1'; 
+        }, 50); 
+        submenuVisible = true;
+    } else {
+        submenu.style.opacity = '0'; 
+        setTimeout(() => {
+            submenu.style.display = 'none'; 
+        }, 300); 
+        submenuVisible = false;
+    }
+});
+
+submenuItems.forEach(item => {
+    item.addEventListener('click', function() {
+        submenu.style.display = 'none';
+        submenuVisible = false;
+    });
+});
+</script>
+
 <div class="about">
     <div class="about-business">
         <h1>About the business</h1><br>
@@ -36,19 +67,68 @@
         <h2>Ms. Janelyn Dalupan.</h2><br>
         <p>Stove n’ Oven - was established in 2020, during the pandemic, when almost all establishment and most companies were closed and only food and logistics businesses were left in operation since food is an essential need during that time and logistics/delivery services of essential goods because people were not allowed to go out and have limited activity during the pandemic. People were only allowed to go out to buy essential needs - food.</p><br>
         <p>From there, Ms. Janelyn, loves to cook and really wanted to try baking, came up with an idea to cater food and baked goods, go online and deliver foods. Thus, she named it Stove n’ Oven, since she loves to cook and bake at the same time, obviously using the stove and the oven. She caters savory food and baked goods, customize cake and cupcakes. She caters savory food and baked goods, customize cake and cupcakes. </p><br>
-        <p>Up until now, Stove n’ Oven is still in operation at the comfort of her home…</p><br>
+        <p>Stove n’ Oven quickly gained popularity within the local community, not just for its delicious offerings but also for its personalized touch. Ms. Janelyn's passion for cooking and baking reflected in every dish and treat she prepared, making each bite a delightful experience for her customers.</p>
         <img src="images/owner.png">
     </div>
+</div>
 
-<div class="mission">
-    <div class="mission-box">
+<div class="about-bottom">
+    <div class="mission-container">
         <div class="mission-content">
         <h1>Mission</h1>
         <p>Our mission is to serve and deliver savory food and baked goods at the comfort of your home and be part of your celebrations and make it extra special.</p>
         </div>
     </div>
+    <div class="vision-container">
+        <div class="vision-content">
+        <h1>Vision</h1>
+        <p>To become trusted and beloved brand known for offering high quality, delicious food and customized cakes and pastries for all occasions.</p>
+    </div>
+    </div>
+    <div class="location-content">
+        <h1>Location</h1>
+        <p>Nestled in the quaint surroundings of Macabebe, Pampanga, our home-based business offers a personalized culinary experience unlike any other.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123405.98568031493!2d120.59381839085059!3d14.856820014657727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33965af30887de57%3A0x1aa8d246509d51e5!2sMacabebe%2C%20Pampanga!5e0!3m2!1sen!2sph!4v1714917953977!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 </div>
-</div>
+
+<footer>
+    <div class="footer-content">
+        <a href="index.html">
+            <img src="images/logo.png">
+        </a>
+        <div class="header1">
+            <h1>Get in Touch with Us:</h1>
+        </div>
+
+        <div class="paragraph1">
+            <a href="https://www.facebook.com/stovenoven">
+                <p><i class="fa-brands fa-square-facebook"></i>Stove n' Oven</p>
+            </a>
+            <a href="https://www.instagram.com/stove.noven/?hl=en">
+            <p><i class="fa-brands fa-square-instagram"></i>@stoven’oven</p>
+            </a>
+        </div>
+
+        <div class="header2">
+            <h1>Contact Us:</h1>
+        </div>
+
+        <div class="paragraph2">
+            <p>Cellphone Number: +6391234567</p>
+            <p>Telephone Number: (02) 88-0000</p>
+        </div>
+        <div class="header3">
+            <h1>Menu:</h1>
+        </div>
+        <div class="footer-menu">
+            <a href="pastries.html"><p>Pastries</p></a>
+            <a href="cakes.html"><p>Cakes</p></a>
+            <a href="foodtrays.html"><p>Food Trays</p></a>
+        </div>
+        <button class="btn"><p>START ORDER</p></button>
+    </div>
+</footer>
 
 </body>
 </html>
