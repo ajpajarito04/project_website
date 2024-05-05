@@ -120,7 +120,7 @@ header a img {
 
 header .btn {
     position: absolute;
-    margin-left: 43rem;
+    margin-left: 41rem;
     margin-top: -58.7rem;
     background-color: #102c57;
     color: white;
@@ -277,7 +277,7 @@ body {
 
 .flexbox-item-1 .btn {
     position: absolute;
-    margin-left: -51rem;
+    margin-left: -49.5rem;
     margin-top: 10rem;
     background-color: #102c57;
     color: white;
@@ -297,7 +297,7 @@ body {
 
 .flexbox-item-2 .btn {
     position: absolute;
-    margin-left: -7.5rem;
+    margin-left: -6.0rem;
     margin-top: 10rem;
     background-color: #102c57;
     color: white;
@@ -317,7 +317,7 @@ body {
 
 .flexbox-item-3 .btn {
     position: absolute;
-    margin-left: 36rem;
+    margin-left: 37.5rem;
     margin-top: 10rem;
     background-color: #102c57;
     color: white;
@@ -351,7 +351,7 @@ body {
     font-size: 30px;
     text-align: left;
     color: black;
-    font-weight: bold;
+    font-weight: 800;
     line-height: 2.5;
 }
 
@@ -399,8 +399,6 @@ body {
     padding: 20px 70px;
     border-radius:5px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-    
-    
 }
 
 
