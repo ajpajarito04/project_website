@@ -13,6 +13,7 @@ html {
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
     overflow-x: hidden;
+    max-width: 1080;
 }
 
 section {
@@ -57,6 +58,7 @@ header {
     justify-content: space-between;
     z-index: 900;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.100);
+    max-width: 1920px;
 }
 
 header a img {
@@ -139,13 +141,13 @@ header .btn p {
 
 body {
 	background-color: #dac0a3;
+    max-width: 1920px;
 }
 
 /* SLIDER CSS  */
 
 .slider{
-    width: 1920px;
-    max-width: 100vw;
+    max-width: 1920px;
     height: 710px;
     margin: auto;
     position: relative;
@@ -155,7 +157,7 @@ body {
 
 .slider .list{
     position: absolute;
-    width: max-content;
+    width: 100%;
     height: 100%;
     left: 0;
     top: 0;
@@ -521,7 +523,8 @@ footer{
     right: 0;
     background: #102c57;
     padding: 2rem 6%;
-    width: 120%;
+    max-width: 1920px;
+    height: 200px;
 }
 
 .footer-content {
@@ -535,11 +538,11 @@ footer{
 
 .footer-content a img {
    width: 250px;
-    height: auto;
+   margin-top: 10px;
 }
 
 .footer-content .header1 h1 {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     margin-left: 50px;
     flex-direction: column;
     font-size: 17px;
@@ -561,7 +564,8 @@ footer{
 .footer-content .paragraph1 p {
     margin-left: -175px;
     margin-right: 100px;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: -10px;
     flex-direction: column;
     font-size: 1;
     font-family: 'Inter', sans-serif;
@@ -574,7 +578,7 @@ footer{
 }
 
 .footer-content .header2 h1 {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     margin-left: 0px;
     flex-direction: column;
     font-size: 17px;
@@ -585,7 +589,8 @@ footer{
 .footer-content .paragraph2 p {
     margin-left: -95px;
     margin-right: 10px;
-    margin-top: 15px;
+    margin-top: 25px;
+    margin-bottom: -10px;
     flex-direction: column;
     font-size: 1;
     color: #fff;
@@ -593,7 +598,7 @@ footer{
 }
 
 .footer-content .header3 h1 {
-    margin-bottom: 105px;
+    margin-bottom: 80px;
     margin-left: 70px;
     flex-direction: column;
     font-size: 17px;
@@ -604,7 +609,8 @@ footer{
 .footer-content .footer-menu p {
     margin-left: -50px;
     margin-right: 10px;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: -10px;
     flex-direction: column;
     font-size: 1;
     font-family: 'Inter', sans-serif;
@@ -619,7 +625,7 @@ footer{
 
 footer .btn {
     position: absolute;
-    margin-left: 35rem;
+    margin-left: 47rem;
     margin-top: -55rem;
     background-color: #dac0a3;
     color: white;
@@ -633,6 +639,7 @@ footer .btn {
     margin-top: 90px; 
     position: relative;
     height: 630px;
+    max-width: 1920px;
 }
 
 .about-content {
@@ -674,6 +681,7 @@ footer .btn {
     background-color: #eadbc8;
     padding: 30px;
     height: 1150px;
+    max-width: 1920px;
 }
 
 .mission-container {
@@ -734,7 +742,7 @@ footer .btn {
     margin-right: 150px;
 }
 
-.location-iframe iframe {
+.location-maps iframe {
     margin-left: 250px;
     margin-top: 80px;
     height: 400px;
@@ -750,6 +758,7 @@ footer .btn {
     font-size: 18px;
     line-height: 1.5;
     font-weight: normal;
+    margin-right: 90px;
 }
 
 
