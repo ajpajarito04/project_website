@@ -21,9 +21,9 @@ section {
 }
 
 /* Central button style */
-
+/*
 .btn {
-    position: absolute;
+    position: relative;
     top: 64rem;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -43,7 +43,7 @@ section {
 .btn:hover {
     background-color:#081b3c;
 }
-
+*/
 /* Header Style */
 
 header {
@@ -58,7 +58,7 @@ header {
     justify-content: space-between;
     z-index: 900;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.100);
-    max-width: 1920px;
+    
 }
 
 header a img {
@@ -120,28 +120,28 @@ header a img {
     margin-right: 5px;
 }
 
-header .btn {
-    position: absolute;
-    margin-left: 41rem;
-    margin-top: -58.7rem;
+nav .btn {
+    position: relative;
+    left: 1%;
+    top: 10%;
     background-color: #102c57;
     color: white;
     padding: 13px 35px;
     border-radius:5px; 
 }
 
-header .btn:hover {
+nav .btn:hover {
     background-color: #081b3c; 
 }
 
-header .btn p {
+nav .btn p {
     font-weight: bold;
     font-size: 17px; 
 }
 
 body {
 	background-color: #dac0a3;
-    max-width: 1920px;
+    max-width: 100%;
 }
 
 /* SLIDER CSS  */
@@ -256,12 +256,15 @@ body {
 }
 
 
-/* flex boxes */
+/* flex boxes featured m,e */
 
 .flexbox-container{
     display: flex;
     justify-content: space-around;
     justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-flow:wrap
 }
 
 .flexbox-item {
@@ -278,9 +281,9 @@ body {
 }
 
 .flexbox-item-1 .btn {
-    position: absolute;
-    margin-left: -49.5rem;
-    margin-top: 10rem;
+    position: relative;
+    top:5%;
+    left:10%;
     background-color: #102c57;
     color: white;
     padding: 13px 35px;
@@ -298,9 +301,9 @@ body {
 }
 
 .flexbox-item-2 .btn {
-    position: absolute;
-    margin-left: -6.0rem;
-    margin-top: 10rem;
+    position: relative;
+    top:5%;
+    left:10%;
     background-color: #102c57;
     color: white;
     padding: 13px 35px;
@@ -318,9 +321,9 @@ body {
 }
 
 .flexbox-item-3 .btn {
-    position: absolute;
-    margin-left: 37.5rem;
-    margin-top: 10rem;
+    position: relative;
+    top:5%;
+    left:10%;
     background-color: #102c57;
     color: white;
     padding: 13px 35px;
@@ -361,6 +364,17 @@ body {
     color:#102c57;
 }
 
+@media screen and (max-width:1200px){
+    .box{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .box{
+        width: 90%;
+    }
+}
 /* section 3 */
 
 .section3{
@@ -435,6 +449,10 @@ body {
 .flexbox-container1{
     display: flex;
     justify-content: space-around;
+    
+    display: flex;
+    flex-direction: row;
+    flex-flow:wrap
 }
 
 .flexbox-item1 {
@@ -460,7 +478,7 @@ body {
     display: block;
     position: absolute;
     height: 0%;
-    width: 374px;
+    width: 400px;
     bottom: 40px;
     transition: height 0.5s ease-out;
     background: linear-gradient(to bottom, transparent 0%, black 100%);
@@ -482,7 +500,7 @@ body {
     display: block;
     position: absolute;
     height: 0%;
-    width: 374px;
+    width: 400px;
     bottom: 40px;
     transition: height 0.5s ease-out;
     background: linear-gradient(to bottom, transparent 0%, black 100%);
@@ -504,7 +522,7 @@ body {
     display: block;
     position: absolute;
     height: 0%;
-    width: 374px;
+    width: 400px;
     bottom: 40px;
     transition: height 0.5s ease-out;
     background: linear-gradient(to bottom, transparent 0%, black 100%);
@@ -514,6 +532,17 @@ body {
     height: 500px;
   }
 
+  @media screen and (max-width:1200px){
+    .box{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .box{
+        width: 90%;
+    }
+}
  /* Footer */
 
 footer{
@@ -523,7 +552,6 @@ footer{
     right: 0;
     background: #102c57;
     padding: 2rem 6%;
-    max-width: 1920px;
     height: 200px;
 }
 
@@ -624,14 +652,18 @@ footer{
 }
 
 footer .btn {
-    position: absolute;
-    margin-left: 47rem;
-    margin-top: -55rem;
+    position: relative;
+    left: 30%;
+    top: 0px;
     background-color: #dac0a3;
     color: white;
     padding: 13px 35px;
     border-radius:5px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);   
+}
+
+.footerp-bottom{
+    display: flex;
 }
 
 /*about*/
